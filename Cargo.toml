@@ -9,6 +9,7 @@ license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/ry3s/wordcount"
 categories = ["command-line-utilities"]
+exclude = ["text.txt", "tests/*"]
 
 [badges]
 travis-ci = { repository = "ry3s/wordcount" }
