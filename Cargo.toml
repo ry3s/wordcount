@@ -1,8 +1,19 @@
 [package]
 name = "wordcount"
 version = "0.1.0"
-authors = ["ry3s <ktchg752@yahoo.co.jp>"]
+authors = ["ry3s"]
 edition = "2018"
+
+# ここから追記
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/ry3s/wordcount"
+categories = ["command-line-utilities"]
+
+[badges]
+travis-ci = { repository = "ry3s/wordcount" }
+
+# 追記ここまで
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
